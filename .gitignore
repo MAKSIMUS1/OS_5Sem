@@ -1,0 +1,56 @@
+# Игнорировать все файлы без расширения
+*.
+
+# Игнорировать временные файлы редакторов и IDE
+*.log
+*.obj
+*.o
+*.exe
+*.out
+*.a
+*.lib
+*.dll
+*.so
+*.pdb
+*.idb
+*.class
+*.psd
+*.dmg
+*.sdf
+*.sqlite
+*.ipch
+*.user
+*.gch
+*.pch
+*.vcxproj.*
+*.cmake
+
+# Игнорировать временные файлы сборки
+build/
+cmake-build-debug/
+cmake-build-release/
+bin/
+obj/
+
+# Игнорировать CMake кэш и файлы настройки
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Игнорировать временные файлы IDE (например, Visual Studio)
+.vscode/
+.idea/
+*.vcxproj.user
+*.vcxproj.filters
+
+# Игнорировать временные файлы OS
+.DS_Store
+Thumbs.db
+
+# Игнорировать файлы конфигурации CLion
+.idea/
+*.iml
+
+# Игнорировать файлы кода тестов, если они создаются автоматически
+tests/
